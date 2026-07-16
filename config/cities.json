@@ -1,0 +1,7 @@
+{
+  "nagareyama": { "name": "Nagareyama", "lat": 35.85, "lon": 139.90 },
+  "tokyo": { "name": "Tokyo", "lat": 35.6895, "lon": 139.6917 },
+  "osaka": { "name": "Osaka", "lat": 34.6937, "lon": 135.5023 },
+  "sapporo": { "name": "Sapporo", "lat": 43.0618, "lon": 141.3545 },
+  "fukuoka": { "name": "Fukuoka", "lat": 33.5902, "lon": 130.4017 }
+}
