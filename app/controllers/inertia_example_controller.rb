@@ -2,9 +2,9 @@
 
 class InertiaExampleController < InertiaController
   def index
-    render inertia: 'Home/index', props: {
+    render inertia: "Home/index", props: {
       weather: WeatherService.fetch_current_weather,
-      userName: 'Guest',
+      userName: "Guest"
     }
   end
 end
