@@ -1,6 +1,7 @@
 import React from 'react';
 import { Head } from '@inertiajs/react';
 import WeatherWidget from '@/components/atoms/Weather';
+import Clock from '@/components/atoms/Clock';
 
 interface WeatherData {
   current?: {
@@ -24,6 +25,7 @@ const Index: React.FC<HomeProps> = ({ weather, userName }) => {
   return (
     <>
       <Head title="Smart Desktop" />
+      <Clock />
       <WeatherWidget weather={weather}/>
       <div className="min-h-screen bg-gray-900 text-white p-8 font-sans">
         <h1 className="text-3xl font-bold mb-8">
